@@ -1,0 +1,23 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "A Node.js web crawler that extracts all links from a webpage, including JavaScript-generated links",
+  "main": "crawler.js",
+  "bin": {
+    "web-crawler": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["web-crawler", "links", "scraping", "nodejs"],
+  "author": "Vantist",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "commander": "^14.0.0",
+    "jsdom": "^26.1.0",
+    "url": "^0.11.4"
+  }
+}
